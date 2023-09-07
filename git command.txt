@@ -1,3 +1,5 @@
+LOCAL COMMAND
+-------------------------------------
 git init
 git add "file name"
 git status
@@ -5,3 +7,9 @@ git commit -m "Message"
 git log
 git diff fileName
 git checkout fileName
+
+REMOTE COMMAND
+--------------------------------------
+git remote add origin https://github.com/Kelum-Creater/GIT-Test-2023-.git
+git branch -M master
+git push -u origin master
